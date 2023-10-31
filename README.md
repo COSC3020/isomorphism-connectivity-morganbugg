@@ -10,3 +10,9 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+This proof can be proven with a rather simple example, laid out visually below:
+
+<img src="graph.png" width="350" />
+
+Above, we have a simple graph of two nodes A and B.  These nodes are disconnected, meaning that the graph is not completely connected.  If we construct a simple function that maps A to B and B to A, this function satisfies the reuirements of being one-to-one and onto.  Each node maps only onto one other node, and each node also maps onto a different node.
